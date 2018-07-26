@@ -15,9 +15,9 @@ namespace Print
             string a = "First";
             string b = "Last";
             Console.WriteLine("Displaying variable A = {0} and B = {1}", a, b);
-            Console.WriteLine("");
+            Console.WriteLine(""); // Empty Line
             Console.WriteLine("Press any key to continue");
-            Console.ReadKey();  //
+            Console.ReadKey();  // Pause, requires a key to be pressed to continue
 
         }
     }
